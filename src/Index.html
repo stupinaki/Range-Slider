@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Range Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <form class="form">
+    <div class="number-input">
+      <input type="number" class="input-min" value="0">
+      <input type="number" class="input-max" value="1000">
+    </div>
+
+    <div class="slider">
+      <div class="progress"></div>
+    </div>
+
+    <div class="range-input">
+      <input type="range" class="range-min" min="0" max="1000" value="0" step="1">
+      <input type="range" class="range-max" min="0" max="1000" value="1000" step="1">
+    </div>
+
+    <input type="submit" class="submit">
+  </form>
+<script src="script.js"></script>
+</body>
+</html>
